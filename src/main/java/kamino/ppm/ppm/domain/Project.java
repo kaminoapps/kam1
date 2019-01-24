@@ -47,7 +47,7 @@ public class Project {
         return description;
     }
 
-    public  void setDescription(String description) {
+    public void setDescription(String description) {
         this.description = description;
     }
 
@@ -91,6 +91,7 @@ public class Project {
 
     @PreUpdate
     protected  void onUpdate(){
+
         this.update_At=new Date();
     }
 
